@@ -23,15 +23,15 @@ h2 {
     margin: 0.5em;
     padding: 0.5em;
     border: 1px solid pink;
-    background: linear-gradient(45deg,black, purple);
+    background: linear-gradient(45deg,rgb(68, 7, 68), rgb(121, 56, 121));;
     box-shadow: 6px 6px 0px black;
     padding-bottom: 30px;
 }
 
 /* effet passage souris sur titre des sections*/
 h2:hover {
-    color: rgb(43, 9, 51);
-    text-shadow: 0.1em 0.1em 0.2em rgb(243, 19, 232);
+    color: rgb(243, 19, 176);
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.1);
 }
 
 .dates {
@@ -49,7 +49,8 @@ header {
     justify-content: space-between;
     /* Pour l'axe secondaire */
     align-items: center;
-    background:linear-gradient(#e66465, #9198e5);
+    background:url(assets/Abstract-4.jpg) no-repeat;
+    background-size: cover;
     box-shadow: 6px 5px 0px black;
     flex-direction: row-reverse;
 }
@@ -83,7 +84,7 @@ header {
     padding: 0.5em;
     color: white;
     box-shadow: 6px 6px 0px black;
-    background:radial-gradient(black 10%,purple 20%,pink 70%);
+    background:linear-gradient(purple 0%, rgb(132, 0, 255) 10% 30%, rgb(117, 4, 70) 50% 70%, rgb(17, 2, 43) 90%);
 }
 
 #nav li {
@@ -102,7 +103,7 @@ li a {
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(82, 82, 104);
+    background-color:rgb(37, 3, 37);
     --primary-color: white;
     width: 100%;
 }
